@@ -1,0 +1,21 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.example.whizbang</groupId>
+  <artifactId>build-tools</artifactId>
+  <version>1.0</version>
+  <name>Build Tools</name>
+  
+  <distributionManagement>
+    <repository>
+      <id>proj-release</id>
+      <name>90发布版本仓库地址</name>
+      <url>http://117.121.21.90:6666/nexus/content/repositories/release/</url>
+    </repository>
+    <snapshotRepository>
+      <id>proj-snapshot</id>
+      <name>90快照版本仓库地址</name>
+      <url>http://117.121.21.90:6666/nexus/content/repositories/snapshots/</url>
+    </snapshotRepository>
+    </distributionManagement>
+  
+</project>
