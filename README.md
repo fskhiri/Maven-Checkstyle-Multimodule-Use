@@ -9,6 +9,10 @@ http://maven.apache.org/plugins/maven-checkstyle-plugin/examples/multi-module-co
 
 and I give the source code :)
 
+just run:
+
+    mvn site
+
 Requires 
 ===
 
